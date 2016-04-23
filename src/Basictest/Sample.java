@@ -21,7 +21,7 @@ public class Sample {
 					 cap.setCapability("browserName","Android");
 					 cap.setCapability("platformVersion","5.1");
 					 cap.setCapability("platformName","Android");
-					 cap.setCapability("app", "http://192.168.1.40:9999/jenkins/job/ciIntegration/lastSuccessfulBuild/artifact/app/build/outputs/apk/app-debug.apk");
+					 cap.setCapability("app", "http://192.168.1.184:9090/jenkins/job/Project1_TObject/lastSuccessfulBuild/artifact/app/build/outputs/apk/app-debug.apk");
 					 System.out.println("installing app on device from jenkins workspace");
 					 cap.setCapability("appPackage","com.example.android.testing.unittesting.BasicSample");
 				     cap.setCapability("appActivity","com.example.android.testing.unittesting.BasicSample.MainActivity");
